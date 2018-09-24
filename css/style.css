@@ -81,6 +81,11 @@ h2 {
     margin: 1%;
 }
 
+h4 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 0;
+}
+
 #about-me {
     background: #202728;
     min-height: 75rem;
@@ -88,17 +93,14 @@ h2 {
     padding: 100px;
 }
 
-.skill-heading {
-    color: #c0cdcf;
-    font-size: 55px;
+.left {
     text-align: right;
-    font-family: 'Open Sans', Helvetica, sans-serif;
     width: 33.33333333%;
     float: left;
     padding: 15px;
 }
 
-.skill-text {
+.middle {
     width: 33.33333333%;
     float: left;
     color: #c0cdcf;
@@ -108,15 +110,32 @@ h2 {
     font-family: 'Lato', Helvetica, sans-serif;
 }
 
-.skill-chart {
+.right {
     width: 20%;
     float: left;
     padding: 15px;
 }
 
-#software-section {
+.title {
+    color: #c0cdcf;
+    font-size: 55px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.graph {
+    padding-top: 8%;
+}
+
+section {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.lines {
+    background: url(../img/lines.png) repeat-x center;
+    margin-bottom: 40px;
+    float: left;
+    width: 100%;
 }
 
 @font-face {
