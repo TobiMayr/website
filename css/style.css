@@ -1,3 +1,7 @@
+* {
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -158,13 +162,20 @@ section {
 .flex {
     margin-top: 4rem;
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    #justify-content: flex-start;
+    #flex-direction: row;
 }
 
 .project {
     width: 25%;
     height: 25%;
-    margin: auto;
+    margin: 0 2% 0 2%;
+}
+
+.project-icon {
+    width: 80%;
+    padding: 10%;
 }
 
 @font-face {
